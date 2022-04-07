@@ -1,5 +1,6 @@
 # Juno Journey's Engineering Coding Task
 ## Instructions
+[![codecov](https://codecov.io/gh/markjuno/juno-engineering-coding-task/branch/main/graph/badge.svg?token=CSQDG5Z4CH)](https://codecov.io/gh/markjuno/juno-engineering-coding-task)
 This coding task is used to evaluate new hires for Juno Journey's Engineering Team.
 The whole task should take around 1.5 hours.
 
