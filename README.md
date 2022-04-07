@@ -38,4 +38,7 @@ You should write in total four JavaScript functions, it is recommended to do it 
 The instructions are specified in TODO comments.
 <b> Do not forget to provide sufficient (automatic) tests for your code! </b>
 
-Use you preferred way (node , ecommerce.test.js) to run and debug the methods.
+Use you preferred way (node , ecommerce.test.js) 
+
+
+Testing Coverage
