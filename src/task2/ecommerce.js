@@ -5,6 +5,7 @@ import { allIds, fetchOrderById } from "../api";
 
 export const fetchAllOrders = () => {
     const ids = allIds;
+    let a = 1;
     // .....
     //   1. TODO: fetch all ids using the "fetchOrderById" and the given ids, make it work as efficient and clean as possible.
 };
