@@ -3,7 +3,7 @@ import { allIds, fetchOrderById } from "../api";
 
 ////////////////////////////////// Your code tasks is below //////////////////////////////////////////////////////
 
-const fetchAllOrders = () => {
+export const fetchAllOrders = () => {
     const ids = allIds;
     // .....
     //   1. TODO: fetch all ids using the "fetchOrderById" and the given ids, make it work as efficient and clean as possible.
