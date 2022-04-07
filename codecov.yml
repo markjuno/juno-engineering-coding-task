@@ -1,5 +1,6 @@
 coverage:
-  precision: 2
-  round: down
-  range: "50...100"
-  require_ci_to_pass: yes
+  status:
+    project:
+      default:
+        target: 60%
+        threshold: 5%
