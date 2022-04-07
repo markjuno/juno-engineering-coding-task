@@ -13,10 +13,10 @@ test("Ecommerce - fetchOrderById", async () => {
 
 test("Ecommerce - bucketOrdersByUsers2", async () => {
     let orders = bucketOrdersByUsers2();
-    expect(orders).toBeUndefined();
+    expect(orders).toBeDefined();
 });
 
 test("Ecommerce - bucketOrdersByUsers3", async () => {
-    let orders = await bucketOrdersByUsers3();
-    expect(orders).toBeUndefined();
+    let orders = bucketOrdersByUsers3();
+    expect(orders).toBeDefined();
 });
