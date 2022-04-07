@@ -40,5 +40,3 @@ The instructions are specified in TODO comments.
 
 Use you preferred way (node , ecommerce.test.js) 
 
-
-Testing Coverage
