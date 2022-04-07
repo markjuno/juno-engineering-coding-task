@@ -15,8 +15,3 @@ test("Ecommerce - bucketOrdersByUsers2", async () => {
     let orders = bucketOrdersByUsers2();
     expect(orders).toBeDefined();
 });
-
-test("Ecommerce - bucketOrdersByUsers3", async () => {
-    let orders = bucketOrdersByUsers3();
-    expect(orders).toBeDefined();
-});
