@@ -31,6 +31,13 @@ export const bucketOrdersByUsers3 = () => {
     return ordersByUsers;
 };
 
+export const bucketOrdersByUsers4 = () => {
+    let ordersByUsers = {};
+    //   2. TODO: using the function from section 1 you should now bucket the orders by user.
+    // each key in the object (ordersByUsers) represents a userId and each value is an array of the orders of that user.
+    return ordersByUsers;
+};
+
 const getLast2WeeksOrders = () => {
     //   3. TODO: fetch all Ids and return array with only the last 2 weeks orders. make it work as efficient and clean as possible.
 };
