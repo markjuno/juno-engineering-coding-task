@@ -12,5 +12,5 @@ test("Ecommerce - fetchOrderById", async () => {
 });
 test("Ecommerce - bucketOrdersByUsers2", async () => {
     let orders = await bucketOrdersByUsers2();
-    expect(orders).toBeUndefined();
+    expect(orders).toBeDefined();
 });
