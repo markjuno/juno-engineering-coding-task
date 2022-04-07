@@ -16,7 +16,7 @@ const bucketOrdersByUsers = () => {
     return ordersByUsers;
 };
 
-const bucketOrdersByUsers = () => {
+const bucketOrdersByUsers2 = () => {
     let ordersByUsers = {};
     //   2. TODO: using the function from section 1 you should now bucket the orders by user.
     // each key in the object (ordersByUsers) represents a userId and each value is an array of the orders of that user.
