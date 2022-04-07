@@ -1,6 +1,9 @@
 coverage:
   require_ci_to_pass: false
   status:
+    patch:
+      default:
+        target: 50%
     project:
       default:
         target: auto
