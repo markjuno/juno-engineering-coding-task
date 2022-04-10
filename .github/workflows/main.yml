@@ -6,12 +6,9 @@ name: CI
 on:
   # Triggers the workflow on push or pull request events but only for the main branch
   push:
-    branches-ignore:
-      - 'hotfix/**'
+    branches: [ main ]
   pull_request:
-    branches-ignore:
-      - 'hotfix/**'
-
+      branches: [ main ]
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
@@ -23,11 +20,13 @@ jobs:
     runs-on: ubuntu-latest
 
     # Steps represent a sequence of tasks that will be executed as part of the job
+    if: ${{ contains(github.head_ref, 'hotfix') == false }}
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v3
       - name: Run tests and collect coverage
         run: | 
+          echo $${{ github.ref }}
           npm install
           npm run test -- --coverage src/
 
