@@ -40,3 +40,5 @@ The instructions are specified in TODO comments.
 <b> Do not forget to provide sufficient (automatic) tests for your code! </b>
 
 Use you preferred way (node , ecommerce.test.js)
+
+COVERAGE TEST
