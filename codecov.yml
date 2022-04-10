@@ -5,6 +5,10 @@ coverage:
     patch:
       default:
         target: 50%
+        branches:
+          - "!hotfix"
     project:
       default:
         target: auto
+        branches:
+          - "!hotfix"
