@@ -5,11 +5,41 @@ import { allIds, fetchOrderById } from "../api";
 
 export const fetchAllOrders = () => {
     const ids = allIds;
+    let a = 1;
+    let b =2;
     // .....
     //   1. TODO: fetch all ids using the "fetchOrderById" and the given ids, make it work as efficient and clean as possible.
 };
 
-const bucketOrdersByUsers = () => {
+export const bucketOrdersByUsers = () => {
+    let ordersByUsers = {};
+    //   2. TODO: using the function from section 1 you should now bucket the orders by user.
+    // each key in the object (ordersByUsers) represents a userId and each value is an array of the orders of that user.
+    return ordersByUsers;
+};
+
+export const bucketOrdersByUsers2 = () => {
+    let ordersByUsers = {};
+    //   2. TODO: using the function from section 1 you should now bucket the orders by user.
+    // each key in the object (ordersByUsers) represents a userId and each value is an array of the orders of that user.
+    return ordersByUsers;
+};
+
+export const bucketOrdersByUsers3 = () => {
+    let ordersByUsers = {};
+    //   2. TODO: using the function from section 1 you should now bucket the orders by user.
+    // each key in the object (ordersByUsers) represents a userId and each value is an array of the orders of that user.
+    return ordersByUsers;
+};
+
+export const bucketOrdersByUsers4 = () => {
+    let ordersByUsers = {};
+    //   2. TODO: using the function from section 1 you should now bucket the orders by user.
+    // each key in the object (ordersByUsers) represents a userId and each value is an array of the orders of that user.
+    return ordersByUsers;
+};
+
+export const bucketOrdersByUsers5 = () => {
     let ordersByUsers = {};
     //   2. TODO: using the function from section 1 you should now bucket the orders by user.
     // each key in the object (ordersByUsers) represents a userId and each value is an array of the orders of that user.
